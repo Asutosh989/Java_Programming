@@ -37,13 +37,7 @@ public class QuickSortLinkedList extends InsertionSort{
 				index = index.next;
 			}
 		}
-//		System.out.println("pivot "+pivot.data);
-//		if(headPtr!=null)
-//		System.out.println("headPtr "+headPtr.data);
-//		if(backPivot!=null)
-//			System.out.println("backPivot "+backPivot.data);
-//		if(pivot.next!=null) 
-//			System.out.println("nextPiovt "+pivot.next.data);
+
 		return pivot;
 	}
 	public static Node quickSort(Node head) {
